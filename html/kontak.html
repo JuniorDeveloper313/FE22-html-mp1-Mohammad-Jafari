@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kontakt</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="icon" type="image/x-icon" href="../bilder/kontakt.png">
+</head>
+<body>
+  <nav class="nav" >
+		<p style=text-align:center>
+		<a class="header-link" href="../index.html" >Startsida</a>
+		<a class="header-link" href="Inspiration.html">Inspiration</a>
+		<a class="header-link" href="kontak.html">kontakt</a>
+		</p>
+  </nav>
+
+  <section class="form"> 
+    <form >
+      <fieldset> 
+        <legend><strong> Uppgifter</strong></legend>
+        <label for="Förnamn">Förnamn:</label><br>
+      <input type="text" id="Förnamn" name="fnamn" value="" placeholder=""><br>
+      <label for="Enamn">Efternamn:</label><br>
+      <input type="text" id="Enamn" name="Ename" value="" placeholder=""><br><br>
+      <label for="E-post">E-post Adress:</label><br>
+      <input type="email" id="E-post" name="E-post" value="" required="required" placeholder=""><br><br>
+      <label for="vad"> Vilken av de gäller din fråga:</label><br><br>
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">HTML</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">CSS</label><br>
+      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+      <label for="javascript">JavaScript</label>
+      <br><br>
+      <label for="Övrig">Övrig:</label><br>
+      <textarea rows="10" cols="80" name="Övrig" id="Övrig" placeholder="..." required="required"></textarea>
+      <br><br>
+      <input type="reset" value="Rensa">
+      <input type="submit" value="Skicka">
+      </fieldset>
+      
+
+    </form>
+  </section>
+</body>
+</html>
